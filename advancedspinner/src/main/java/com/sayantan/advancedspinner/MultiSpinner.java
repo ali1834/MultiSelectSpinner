@@ -24,7 +24,7 @@ public class MultiSpinner extends AppCompatSpinner implements OnMultiChoiceClick
     private List<String> items = new ArrayList<>();
     private boolean[] selected;
     private String defaultText = "چیزی انتخاب نشده";
-    private String spinnerTitle = "Choose From List";
+    private String spinnerTitle = "لطفا انتخاب کنید";
     private MultiSpinnerListener listener;
     private int layout;
 
