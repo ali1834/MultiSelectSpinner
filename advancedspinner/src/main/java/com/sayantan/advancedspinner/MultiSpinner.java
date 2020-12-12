@@ -90,14 +90,14 @@ public class MultiSpinner extends AppCompatSpinner implements OnMultiChoiceClick
         builder.setCancelable(true);
         builder.setMultiChoiceItems(
                 items.toArray(new CharSequence[items.size()]), selected, this);
-        builder.setPositiveButton(android.R.string.ok,
+        builder.setPositiveButton("تائید",
                 new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         setItems();
                     }
                 });
-        builder.setNegativeButton(android.R.string.cancel,
+        builder.setNegativeButton("لغو",
                 new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
